@@ -1,0 +1,9 @@
+<sut>
+	<web>
+		<class>org.jsystem.webdriver_so.WebDriverSystemObject</class>
+		<webDriver>ANDROID_DRIVER</webDriver>
+		<domain>http://www.google.com/</domain>
+		<seleniumTimeOut>30000</seleniumTimeOut>
+		<windowMaximize>false</windowMaximize>
+	</web>
+</sut>
