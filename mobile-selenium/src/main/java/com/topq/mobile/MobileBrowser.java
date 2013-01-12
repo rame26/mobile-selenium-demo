@@ -2,6 +2,7 @@ package com.topq.mobile;
 
 import java.util.List;
 
+import jsystem.framework.TestProperties;
 import junit.framework.SystemTestCase4;
 
 import org.jsystem.webdriver_so.WebDriverSystemObject;
@@ -37,6 +38,7 @@ public class MobileBrowser extends SystemTestCase4 {
 	}
 
 	@Test
+	@TestProperties(name="Sample google mobile test")
 	public void googleSearch() {
 		// And now use this to visit Google
 		driver.navigate().to("http://www.google.com");
