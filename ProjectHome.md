@@ -1,0 +1,1 @@
+This project uses JSystem and Selenium for mobile devices testing.
